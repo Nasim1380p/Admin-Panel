@@ -1,0 +1,3 @@
+{`text-[${pathname === '/Pages/Mainpage/Biling' ? 'white' : 'white'}]`}
+
+{`text-[${pathname === '/Pages/Mainpage/Biling' ? 'white' : 'white'}] bg-[#1a2040]  text-[#0571ff] w-[30px] h-[30px] rounded-lg flex justify-center items-center  `}
