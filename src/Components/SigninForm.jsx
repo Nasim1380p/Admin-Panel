@@ -52,9 +52,12 @@ export default function SignupForm() {
 
   return (
     <form className='flex w-full flex-wrap justify-center' onSubmit={formik.handleSubmit}>
+      <div className='w-[80%] bg-[#161678b7] rounded-xl  mt-4'>
+        <p className='w-full text-[#bcd5f5] text-sm pt-3 pb-3 px-3 font-semibold'>Email: admin@gmail.com / Pass: Admin5050#</p>
+      </div>
       <label htmlFor="email" className='text-white w-[80%] font-semibold mt-3'>Email</label>
       <input
-        className='p-2 rounded-xl outline-[#6c7f97] text-white w-[80%] mt-3 bg-inherit border-[2px] border-[#3b3b6684] placeholder-[#3f4068c1]' placeholder='Your email...'
+        className='p-2 rounded-xl outline-[#6c7f97] text-white w-[80%] mt-2 bg-inherit border-[2px] border-[#3b3b6684] placeholder-[#3f4068c1]' placeholder='Your email...'
         id="email"
         name="email"
         type="email"
@@ -66,9 +69,9 @@ export default function SignupForm() {
         <div className='w-[80%] text-[#6c7f97] mt-1'>{formik.errors.email}</div>
       ) : null}
 
-      <label htmlFor="password" className='text-white font-semibold w-[80%] mt-5'>Password</label>
+      <label htmlFor="password" className='text-white font-semibold w-[80%] mt-4'>Password</label>
       <input
-        className='p-2 rounded-xl w-[80%] outline-[#6c7f97] mt-3 bg-inherit  text-white  border-[2px] border-[#404064c1] placeholder-[#38384fc1]' placeholder='Your email...'
+        className='p-2 rounded-xl w-[80%] outline-[#6c7f97] mt-2 bg-inherit  text-white  border-[2px] border-[#404064c1] placeholder-[#38384fc1]' placeholder='Your email...'
         id="password"
         name="password"
         type="password"
@@ -81,7 +84,7 @@ export default function SignupForm() {
       ) : null}
 
 
-      <div className='w-[80%] hover:scale-[1.03] transition-all duration-200 flex justify-center  p-2 mt-3 items-center text-white ' ><button type="submit" className='bg-[#1f1462] rounded-sm flex justify-center items-center mt-6 w-full p-2 font-mono'>Sign in</button></div>
+      <div className='w-[80%] hover:scale-[1.03] transition-all duration-200 flex justify-center  p-2 mt-0 items-center text-white ' ><button type="submit" className='bg-[#1f1462] rounded-sm flex justify-center items-center mt-6 w-full p-2 font-mono'>Sign in</button></div>
     </form>
   );
 };
