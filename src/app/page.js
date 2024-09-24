@@ -30,7 +30,7 @@ export default function page() {
         </div>
         <div className='md:w-[40%] w-full flex justify-center mt-6 mb-6 '>
           <div className='xl:w-[70%] md:w-[90%] sm:w-[60%] flex flex-wrap justify-center w-[88%] rounded-3xl border-[3px] bg-[#10102e] border-[#7c7eda95]'>
-            <h3 className='text-center w-full mt-7 text-lg font-bold text-white'>Register with</h3>
+            <h3 className='text-center w-full mt-7 text-lg font-bold text-white'>Login with</h3>
             <div className='flex w-full justify-center *:mx-3 *:mt-6 *:mb-3'>
               <div className='w-[80px] h-[80px] text-2xl cursor-pointer border-[2px] bg-[#10105745] hover:bg-[#17175e53] transition-all duration-200 rounded-2xl border-[#6c7f97] flex justify-center items-center text-white'><FaFacebook /></div>
               <div className='w-[80px] h-[80px] text-2xl cursor-pointer border-[2px]  bg-[#10105745] hover:bg-[#17175e53] transition-all duration-200 rounded-2xl border-[#6c7f97] flex justify-center items-center text-white'><FaApple /></div>
