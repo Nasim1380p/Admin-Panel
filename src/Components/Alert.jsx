@@ -1,6 +1,6 @@
 "use client"
 import * as React from 'react';
-// import Button from '@mui/material/Button';
+import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 
@@ -16,7 +16,8 @@ export default function CustomizedSnackbars() {
 
     return (
         <div>
-            <Snackbar open={open} autoHideDuration={10000} transitionDuration={2800} onClose={handleClose}>
+            {/* <Snackbar open={open} autoHideDuration={10000} transitionDuration={2800} onClose={handleClose}> */}
+            <Snackbar open={open}  transitionDuration={2800} onClose={handleClose}>
                 <Alert
                     variant="filled"
                     className='md:p-4 p-2'
